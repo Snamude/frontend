@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-login-cart">
             <Link to="/login">
-                <button className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition-colors duration-200 shadow">Login</button>
+                <button className="px-4 py-2 bg-blue-500 text-black font-semibold rounded-md hover:bg-blue-600 transition-colors duration-200 shadow">Login</button>
             </Link>
             <Link to="/cart">
                 <img src={cart_icon} alt="Cart Icon" /> 

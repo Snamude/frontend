@@ -1,5 +1,11 @@
 .item{
     width: 350px;
+    
+}
+
+.item img{
+height: 350px
+
 }
 
 .item p{
