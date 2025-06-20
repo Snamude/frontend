@@ -10,6 +10,7 @@ height: 350px
 
 .item p{
     margin: 6px 0px;
+    width: 350px;
 }
 
 .item-prices{

@@ -5,6 +5,10 @@
     box-shadow: 0 1px 3px -2px black;
 }
 
+.navbar p{
+    color: blueviolet;
+}
+
 .nav-logo{
     display: flex;
     align-items: center;
