@@ -5,7 +5,7 @@ import './NewsLetter.css'
   return (
     <div className='newsletter'>
         <h1>Get Exclusive Offers On Your Email</h1>
-        <p>Subcribe to our newsletter to stay updated</p>
+        <p>Subcribe to our newsletter for updates</p>
     <div>
     <input type="email" placeholder="Your Email" />
     <button>Subscribe</button>

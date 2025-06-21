@@ -27,6 +27,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+
+    width: 256px;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.shopcategory-products img{
+    height: 350px;
+
 }
 
 .shopcategory-loadmore{
