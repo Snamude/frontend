@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer.jsx';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
-
+ 
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path='/kids' element={<ShopCategory banner={kid_banner} category="kid"/>}/>
         <Route path="/product" element={<Product/>}/>
         <Route path=':productId' element={<Product/>}/>
+        <Route path='product/:productId' element={<Product/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/> 
         </Routes>
