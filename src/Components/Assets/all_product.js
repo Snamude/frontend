@@ -38,7 +38,7 @@ import p36_img from "./product_36.png";
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Velvet Black Jacket",
     category: "women",
     image: p1_img,
     new_price: 50.0,
@@ -46,7 +46,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Pink Plunge Neck Blouse",
     category: "women",
     image: p2_img,
     new_price: 85.0,
@@ -54,7 +54,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Color Block Half Tank Top",
     category: "women",
     image: p3_img,
     new_price: 60.0,

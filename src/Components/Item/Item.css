@@ -1,9 +1,9 @@
 .item{
-    width: 270px;
+    width: 268px;
     grid-gap: 1px;
     grid-template-columns: auto auto auto auto;
-   
-     
+    text-align: center;
+    
 }
 
 .item img{
@@ -12,23 +12,20 @@ height: 344px;
 
 }
 
-.item p{
-    margin: 6px 0px;
-    width: 350px;
-
-}
-
 .item-prices{
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    margin-top: -19px;
+
 }
 
 .item-prices-new{
     color: #374151;
     font-size: 18px;
     font-weight: 600;
+
 }
 
 .item-price-old{

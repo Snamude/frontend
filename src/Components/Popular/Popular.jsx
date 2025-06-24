@@ -4,6 +4,7 @@ import data_product from '../Assets/data.js'
 import Item from '../Item/Item.jsx'
 
 const Popular = () => {
+
   return (
     
     <div className='popular'>
@@ -24,7 +25,7 @@ const Popular = () => {
             })}
             </div>
         </div>
-       
+
        
   )
 }
