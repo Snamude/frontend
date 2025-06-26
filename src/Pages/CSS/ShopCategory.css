@@ -28,14 +28,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
 
-    width: 256px;
-    grid-gap: 80px;
-    grid-template-columns: auto auto auto;
+   /* width: 289px; */
+   grid-gap: 7px;
+   /* grid-template-columns: auto auto auto auto; */
 
 }
 
 .shopcategory-products img{
-    height: 350px;
+   /* height: 350px; */
+   height: 250px;
 
 }
 
