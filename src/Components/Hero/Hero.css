@@ -159,12 +159,17 @@
   
     .hero-right img{
         width: 200px;
-        margin-top: -573px; 
+        margin-top: -618px; 
         margin-left: 284px;
        }
 
        .hero-left p{
         font-size: 40px;
+       }
+       .hero-latest-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
        }
 }
 
