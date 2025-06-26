@@ -156,13 +156,15 @@
         font-size: 18px;
         margin-top: 70px;  
     }
-    .hero-hand-icon p{
-        font-size: 23px;
-    }
+  
     .hero-right img{
         width: 200px;
         margin-top: -573px; 
         margin-left: 284px;
+       }
+
+       .hero-left p{
+        font-size: 40px;
        }
 }
 
