@@ -10,7 +10,7 @@ import whatsapp_icon from '../Assets/whatsapp_icon.png'
     <div className='footer'>
         <div className="footer-logo">
             <img src={footer_logo} alt="" />
-            <p>SHOPPER</p>
+            <p>Boutique</p>
         </div>
        <ul className="footer-links">
         <li>Company</li>
@@ -32,7 +32,7 @@ import whatsapp_icon from '../Assets/whatsapp_icon.png'
        </div>
        <div className="footer-copyright">
         <hr />
-        <p>Copyright @ 2025 All Rights Reserved</p>
+        <p>Copyright @2025 All Rights Reserved.</p>
         <a id="back-to-top" href="#" class="btn btn-primary btn-sm back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up">Top</span></a>
 
        </div>

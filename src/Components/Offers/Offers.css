@@ -97,6 +97,7 @@
     }
     .offers-right img{
         width: 200px;
+        height: 300px;
     }
     .offers-left button{
         width:160px;
@@ -131,7 +132,8 @@
 @media(max-width:500px){
     .offers{
         height: 25vh;
-        margin-bottom: 50px;
+      /*  margin-bottom: 50px; */
+        margin-top: -40px;
     }
     .offers-left h1{
         font-size: 16px;
