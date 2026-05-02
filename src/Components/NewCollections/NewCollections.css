@@ -1,0 +1,26 @@
+/* Update the global image rule to prevent stretching */
+.collections img { 
+    width: 100%;
+    height: auto; /* Changed from 344px to auto to maintain aspect ratio */
+    aspect-ratio: 1 / 1; /* Optional: forces images to stay square */
+    object-fit: cover; /* Ensures image fills the area without stretching */
+}
+
+/* Fix for mobile screens */
+@media(max-width: 800px) {
+    .new-collections h1 {
+        font-size: 30px; /* Reduced slightly for smaller screens */
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px; /* Better spacing for mobile */
+        margin-top: 20px; /* Removed the negative margin */
+        padding: 0 10px; /* Prevents images from touching the screen edges */
+    }
+
+    .collections img {
+        height: auto; /* Ensures height is never hard-coded on mobile */
+    }
+}
