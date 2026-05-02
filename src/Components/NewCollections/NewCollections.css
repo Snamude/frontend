@@ -27,10 +27,11 @@
     grid-gap: 30px;
 }
 
+/* COMPUTER VERSION: No cropping allowed */
 .collections img{ 
-    height: 344px;
-    width: 100%;
-    object-fit: cover;
+    width: 100%;       /* Takes full width of the grid column */
+    height: auto;      /* Automatically adjusts height to show the FULL image */
+    object-fit: contain; /* Ensures the entire outfit is visible, never cropped */
 }
 
 @media(max-width:1280px){
@@ -70,7 +71,7 @@
         margin-top: -40px;
     }
 
-    /* THE FIX: This only triggers on screens smaller than 800px */
+    /* MOBILE VERSION: Stays auto-height so it doesn't stretch */
     .collections img {
         height: auto; 
     }
